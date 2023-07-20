@@ -1,0 +1,88 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    margin-left: 5%;
+    margin-top: 12%;
+    /* font-family: ; */
+}
+
+.campos {
+    /* height: 70%; */
+    /* width: 250px; */
+    /* margin: 13% 5% 13% 5%; */
+    border: none;
+    border-color: rgb(197, 191, 191);
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 20em;
+    height: 2.7em;
+    margin-bottom: 7px;
+    margin-top: 6px;
+}
+
+.imput {
+    width: 20em;
+    height: 2.7em;
+    /* text-decoration-color:rgb(197, 191, 191); */
+    border: none;
+    border-radius: 4px;
+    border-color: rgb(197, 191, 191);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 6px;
+}
+
+.formulario {
+    /* background-color: aliceblue; */
+    /* font-family: ; */
+    font-size: 1rem;
+    margin: 8% 15% 0% 5%;
+    /* width: 70%; */
+    display: flex;
+    align-items: baseline;
+    float: left;
+    gap: 15px;
+    height: 100px;
+}
+
+.containner {
+    /* background-color: aliceblue; */
+    display: flex;
+    margin: 0% 15% 0% 5%;
+    /* justify-content: center ; */
+    float: left;
+    align-items: baseline;
+}
+
+.paragrafo {
+    background-color: rgba(230, 239, 252, 0.74);
+    display: block;
+    margin: 0% 35% 6% 0%;
+    border-radius: 4px;
+    border: 6px solid rgba(230, 239, 252, 0.74);
+    ;
+    text-align: justify;
+    color: rgb(95, 93, 93);
+    width: 49%;
+    font-size: 0.68rem;
+    font-family: "Inter";
+}
+
+.botao {
+    font-size: 1em;
+    background-color: rgb(64, 98, 207);
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5%;
+    border-radius: 5px;
+    border: 3px;
+    margin: 17% 0% 0% 60%;
+    justify-content: center;
+    height: 5%;
+    width: 40%;
+}

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversao</title>
+    <link rel="stylesheet" href="conversao.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://icons8.com.br/icon/yzSggttkqLf4/united-states">
+</head>
+
+<body>
+
+    <h2 id="titulo">Conversão de Moedas</h2>
+    <div class="container">
+        <form class="row formulario" style="width: 50%; font-family: Inter; font-size: 14px;">
+            <div class="col-md-4">
+                <label for="valor"><strong>Valor:</strong></label><br>
+                <input type="number" id="valorInserido" name="valor" step="   $1,00" value="" min="0.00" tabindex="1" class="imput">
+
+            </div><br>
+
+            <div class="col-md-4" style="float: left; font-family: Inter;">
+                <label for="fname"><strong>De:</strong></label><br>
+                <select class="campos form-select"
+                        id="floatingSelect1" aria-label="Floating label
+                        select example;">
+                    <option value="Real">BRA - Real</option>
+                    <!-- <option value="Dólar">USD - Dólar dos EUA</option> -->
+                    <!-- <option value="Euro">EUR - Euro</option> -->
+                    <!-- <option value="Libra">GBP - Libra</option> -->
+                </select>
+            </div>
+
+            <div class="col-md-4" style="float: left; margin-left: 15px; font-family: Inter  ">
+                <label for="fname"><strong>Para:</strong></label><br>
+                <select class="campos form-select"
+                        id="floatingSelect2" aria-label="Floating label
+                        select example">
+                    <option value="valorDoEuro"> USD - Euro</option>
+                    <option value="valorDoDólar">USD - Dólar dos EUA</option>
+                    <option value="valorDoReal">BRA - Real</option>
+                    <option value="valorDoLibra">GBP - Libra</option>
+                </select><br>
+
+                <button type="submit" id="botao" onclick="ativarBotao()" class="botao btn btn-primary" disabled>Converter</button>
+            </div>
+        </form>
+
+        <div class="resultado">
+            <div class="col-md-4">
+                <label for="valor"><strong>O valor da moeda convertida é:</strong></label><br>
+                <input type="number" id="resultado" name="valor" value="" tabindex="1" class="imput">
+            </div><br>
+
+            <div class="containner" style="width: 100em;">
+                <div>
+                    <i class="fa-solid fa-circle-info" style="color: #7b889d; font-size: 15px; margin: 2.5% 1.2% 10% 1.2%; float:left;"></i>
+                    <p class="paragrafo">
+                        Usamos a taxa de mercado médio no nosso Conversor. Isso é apenas para fins informativos. Você não pagará essa taxa ao enviar dinheiro. <span style="color: rgb(6, 40, 233);">Consulte as taxas de envio.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
